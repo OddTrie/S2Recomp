@@ -1,0 +1,165 @@
+# The VU1 programs compiled into ps2xRuntime/src/lib/vu/vu1gen/ and where their code lies in the
+# game's executable: ps2xVuGen reads it from the player's own files and writes the same programs.
+# Written by ps2xRuntime/tools/vu1_locations.py; holds no instruction words.
+file = "SLES_537.18"
+source = "menu.vur" # the recording the programs came from (named in the generated files)
+
+[[program]]
+signature = 0x0438ac7a65fc6eb2
+start_pc = 0x3680
+code = [[1744, 2, 0x3826a8], [1935, 33, 0x382ca0], [2039, 2, 0x37f390]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x12f190b3f49ba989
+start_pc = 0x03c8
+code = [[3, 2, 0x37f060], [86, 19, 0x37f308], [121, 26, 0x37f420]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x188a6ab6c68d1d8c
+start_pc = 0x0120
+code = [[36, 50, 0x37f178]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x1957a3a2b9241dbf
+start_pc = 0x0640
+code = [[200, 22, 0x37f698]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x1c00081a4731b92b
+start_pc = 0x1478
+code = [[566, 92, 0x383038], [1223, 109, 0x3844d0], [1332, 26, 0x384840], [1443, 255, 0x381d20], [1698, 30, 0x382520], [1731, 9, 0x382640]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x1df72c24fc2c24bb
+start_pc = 0x0788
+code = [[241, 10, 0x37f7e0]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x2e7d062066fab5c7
+start_pc = 0x3ec0
+code = [[2008, 33, 0x382ef0]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x3101e3ad0a522003
+start_pc = 0x05b0
+code = [[182, 18, 0x37f608]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x33eed17e0f52137a
+start_pc = 0x3d80
+code = [[1968, 18, 0x382da8], [1986, 55, 0x382e40]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x36a17a957b1b6d9e
+start_pc = 0x0828
+code = [[261, 10, 0x37f888]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x4446545a6e5ebe1c
+start_pc = 0x0348
+code = [[105, 16, 0x37f3a0], [232, 9, 0x37f798], [309, 10, 0x37fa08]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x47dc1fb111a4fc69
+start_pc = 0x11a8
+code = [[565, 49, 0x380220]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x51a5b6d6299bdd4e
+start_pc = 0x3670
+code = [[1742, 2, 0x382698], [1968, 18, 0x382da8], [1986, 55, 0x382e40]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x667962c697af90d0
+start_pc = 0x3690
+code = [[1746, 189, 0x3826b8], [2039, 2, 0x37f390]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x6f6830f3fb4a9c32
+start_pc = 0x06f0
+code = [[222, 10, 0x37f748]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x7e74a75b864b15f7
+start_pc = 0x0d98
+code = [[435, 77, 0x37fdf8], [512, 27, 0x380068]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x8420590993abc587
+start_pc = 0x11a8
+code = [[565, 90, 0x383030], [1223, 109, 0x3844d0], [1332, 26, 0x384840], [1443, 255, 0x381d20], [1698, 30, 0x382520], [1731, 9, 0x382640]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0x8c9a57f1260909f8
+start_pc = 0x08f0
+code = [[3, 2, 0x37f060], [86, 19, 0x37f308], [127, 20, 0x37f450], [286, 23, 0x37f950]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xa3025c87f563ac5c
+start_pc = 0x07d8
+code = [[251, 5, 0x37f608], [256, 5, 0x37f860]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xb5e450e5d9e680fa
+start_pc = 0x3c78
+code = [[1935, 33, 0x382ca0], [2039, 2, 0x37f390]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xb86435fffd14ea52
+start_pc = 0x3d18
+code = [[1955, 13, 0x382d40], [2039, 2, 0x37f390]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xba67c6c635aea165
+start_pc = 0x11a0
+code = [[564, 35, 0x384938]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xbd4f5d4883bd05e5
+start_pc = 0x1490
+code = [[658, 162, 0x383318], [820, 160, 0x383830], [1223, 109, 0x3844d0], [1332, 26, 0x384840], [1443, 255, 0x381d20], [1698, 30, 0x382520], [1731, 9, 0x382640]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xc94850489120396d
+start_pc = 0x1ea0
+code = [[980, 86, 0x383d30], [1223, 109, 0x3844d0], [1332, 26, 0x384840], [1443, 255, 0x381d20], [1698, 30, 0x382520], [1731, 9, 0x382640]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xc9eea99308e4bc3d
+start_pc = 0x0028
+code = [[5, 31, 0x37f080]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xca64dd56b3c7043a
+start_pc = 0x10d8
+code = [[539, 10, 0x380140]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xce08085ed72269cd
+start_pc = 0x0498
+code = [[147, 35, 0x37f4f0]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xd74405bd45f6c637
+start_pc = 0x0878
+code = [[3, 2, 0x37f060], [86, 19, 0x37f308], [127, 20, 0x37f450], [271, 15, 0x37f8d8], [301, 8, 0x37f9c8]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xdc1becbfe8166ae2
+start_pc = 0x1620
+code = [[232, 9, 0x37f798], [708, 97, 0x380698]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xe6ff8f5bcd478624
+start_pc = 0x3a20
+code = [[1860, 75, 0x382a48], [2039, 2, 0x37f390]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xe8fcb4e22bc32756
+start_pc = 0x0a70
+code = [[232, 9, 0x37f798], [309, 10, 0x37fa08], [334, 101, 0x37fad0]] # [first pair, pair count, file offset]
+
+[[program]]
+signature = 0xf6a07863ef099efc
+start_pc = 0x3fb8
+code = [[2039, 2, 0x37f390]] # [first pair, pair count, file offset]
