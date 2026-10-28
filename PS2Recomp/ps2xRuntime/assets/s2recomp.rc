@@ -1,0 +1,3 @@
+// The program icon (made by tools/app_icon.py). GLFW gives its windows the icon named GLFW_ICON, so this one
+// resource is the icon in Explorer, on shortcuts, on the title bar and on the taskbar.
+GLFW_ICON ICON "s2recomp.ico"
