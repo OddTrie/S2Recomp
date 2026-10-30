@@ -1,0 +1,16 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "The Sims 2",
+  "system": "PS2",
+  "type": "recomp",
+  "original": { "region": "Europe", "serial": "SLES-53718" },
+  "project": "S2Recomp",
+  "status": "released",
+  "targets": ["Windows", "Linux", "Steam Deck"],
+  "toolchain": "Ps2recomp",
+  "approach": "Static recompilation of the PS2 MIPS code to C++, with a native GS/VU1/VIF/IOP/SPU2 layer and an OpenGL 3.3 renderer",
+  "maintainers": [{ "name": "OddTrie", "link": "https://github.com/OddTrie" }],
+  "links": [{ "label": "Discord", "url": "https://discord.com/invite/YwAx7DrrFY" }],
+  "tags": ["hd-textures", "framegen", "co-op", "mods"],
+  "notes": "Runs at full speed natively. GPU renderer up to 4x internal resolution, HD texture packs, frame generation (30 to ~60 FPS), launcher with one-click updates, controller and keyboard/mouse prompts, online two-player co-op, multiple save slots, and a mod SDK. Bring your own disc; the installer builds the game on your PC."
+}
